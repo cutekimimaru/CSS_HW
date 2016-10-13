@@ -1,0 +1,93 @@
+.ppap-btn {
+    background-color: #58a;
+    color: #fff;
+    width: 7.5em;
+    line-height: 1.5em;
+    padding: .3em .8em;
+    border: .05em solid navy;
+    border-radius: .4em;
+    box-shadow: 0 .25em .5em gray;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+    background-image: url('../images/bkg.png');
+    font-family: sans-serif;
+}
+
+.col {
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    border-radius: .3em;
+    box-sizing: border-box;
+    background: #fff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3f4c6b 50%, #fff 50%, #fff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #3f4c6b 50%,#fff 50%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #3f4c6b 50%,#fff 50%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eda28b', endColorstr='#fff',GradientType=0 ); /* IE6-9 */
+}
+
+.btn {
+    border: .05em solid #fff;
+    border-radius: .4em;
+    font-size: 20px;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    line-height: 2.5em;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 60px;
+}
+
+.dollar-sign {
+    font-size: 14px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.per-month {
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.btn {
+    border: .05em solid #fff;
+    border-radius: .3em;
+    margin: 0 5em;
+    font-size: 16px;
+    padding: 1em;
+}
+
+.content {
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.content-nav {
+    list-style-type: none;
+        
+}
+
+.content-nav li {
+    color: #bdbdbd;
+    margin: .8em 0;
+}
+
+.line {
+    width: 120px;
+    height: 1.5px;
+    background-color: #d8d8d8
+}
